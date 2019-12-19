@@ -1,4 +1,4 @@
-def new_pigeon_data(pigeon_info)
+def nyc_pigeon_organizer(pigeon_info)
   final = {}
   pigeon_info.each do |outer_info, inner_info|
     inner_info.each do |category, array|
